@@ -57,7 +57,8 @@ Krótka lista poprawek i usprawnieñ w porównaniu z oryginaln± wersj±:
 
 %build
 %{__make} \
-	CC="%{__cc} %{rpmcflags}"
+	CC="%{__cc}" \
+	EXTRA_CFLAGS="%{rpmcflags} -DLOCALEDIR=\\\"\`\$(GIMPTOOL) --prefix\`/share/locale\\\" -DVERSION=\\\"\$(VERSION)\\\" -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
