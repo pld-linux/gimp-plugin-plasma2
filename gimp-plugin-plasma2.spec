@@ -2,7 +2,7 @@ Summary:	A heavily improved version of the old GIMP Plasma plug-in
 Summary(pl):	Znacznie usprawniona wersja wtyczki Plasma z GIMP-a
 Name:		gimp-plugin-plasma2
 Version:	2.10
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	http://trific.ath.cx/Ftp//gimp/plasma/plasma2-%{version}.tar.bz2
