@@ -1,14 +1,15 @@
 Summary:	A heavily improved version of the old GIMP Plasma plug-in
 Summary(pl):	Znacznie usprawniona wersja wtyczki Plasma z GIMP-a
 Name:		gimp-plugin-plasma2
-Version:	2.10
-Release:	2
+Version:	2.11
+Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	http://trific.ath.cx/Ftp//gimp/plasma/plasma2-%{version}.tar.bz2
-# Source0-md5:	54f20682ca333d91876b3599a61d18c2
+# Source0-md5:	8a4cb3bab1756920ab2dadb4e32b79c5
 URL:		http://trific.ath.cx/software/gimp-plugins/plasma2/
-BuildRequires:	gimp-devel >= 1:2.0.0
+BuildRequires:	gimp-devel >= 1:2.2.0
+Requires:	gimp >= 1:2.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_plugindir	%(gimptool --gimpplugindir)/plug-ins
@@ -64,7 +65,7 @@ Krótka lista poprawek i usprawnieñ w porównaniu z oryginaln± wersj±:
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_plugindir}
 
-install plasma2		$RPM_BUILD_ROOT%{_plugindir}
+install plasma2 $RPM_BUILD_ROOT%{_plugindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
