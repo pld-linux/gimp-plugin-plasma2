@@ -1,5 +1,5 @@
 Summary:	A heavily improved version of the old GIMP Plasma plug-in
-Summary(pl):	Znacznie usprawniona wersja wtyczki Plasma z GIMP-a
+Summary(pl.UTF-8):   Znacznie usprawniona wersja wtyczki Plasma z GIMP-a
 Name:		gimp-plugin-plasma2
 Version:	2.11
 Release:	1
@@ -30,28 +30,28 @@ Brief list of fixes and improvements against original Plasma:
 - Can directly map to a gradient (better than Plasma +
   Map_to_gradient),
 - Can do a gradient-remix map,
-- Better handling of grayscale images (and is 3× faster on them),
+- Better handling of grayscale images (and is 3Ã— faster on them),
 - Buttons to revert/reset settings.
 
-%description -l pl
+%description -l pl.UTF-8
 Plasma2 to znacznie usprawniona wersja wtyczki Plasma z GIMP-a
-napisanej przez Stephena Norrisa, która tworzy podobne do chmur obrazy
+napisanej przez Stephena Norrisa, ktÃ³ra tworzy podobne do chmur obrazy
 znane jako "fraktale plazmowe".
 
-Krótka lista poprawek i usprawnieñ w porównaniu z oryginaln± wersj±:
+KrÃ³tka lista poprawek i usprawnieÅ„ w porÃ³wnaniu z oryginalnÄ… wersjÄ…:
 
-- Kilka nowych opcji generatora, w³±czaj±c mo¿liwo¶æ tworzenia
+- Kilka nowych opcji generatora, wÅ‚Ä…czajÄ…c moÅ¼liwoÅ›Ä‡ tworzenia
   oryginalnych Fractintowych i Norrisowych plazm,
-- Mo¿liwo¶æ tworzenia kafelkowalnych obrazów (du¿o lepsza jako¶æ ni¿
+- MoÅ¼liwoÅ›Ä‡ tworzenia kafelkowalnych obrazÃ³w (duÅ¼o lepsza jakoÅ›Ä‡ niÅ¼
   Plasma + Make_seamless),
-- W³±czanie/wy³±czanie kafelkowalno¶ci wprowadza do obrazu tylko
-  zmiany potrzebne do osi±gniêcia efektu,
-- Mo¿liwo¶æ bezpo¶redniego mapowania na gradient (du¿o lepsza ni¿
+- WÅ‚Ä…czanie/wyÅ‚Ä…czanie kafelkowalnoÅ›ci wprowadza do obrazu tylko
+  zmiany potrzebne do osiÄ…gniÄ™cia efektu,
+- MoÅ¼liwoÅ›Ä‡ bezpoÅ›redniego mapowania na gradient (duÅ¼o lepsza niÅ¼
   Plasma + Map_to_gradient),
-- Mo¿liwo¶æ robienia map gradient-remix,
-- Lepsza obs³uga obrazów w skali szaro¶ci (a tak¿e trzykrotne
+- MoÅ¼liwoÅ›Ä‡ robienia map gradient-remix,
+- Lepsza obsÅ‚uga obrazÃ³w w skali szaroÅ›ci (a takÅ¼e trzykrotne
   przyspieszenie operacji na nich),
-- Przyciski powrotu/kasowania ustawieñ.
+- Przyciski powrotu/kasowania ustawieÅ„.
 
 %prep
 %setup -q -n plasma2-%{version}
