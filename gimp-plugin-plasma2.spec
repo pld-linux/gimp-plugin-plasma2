@@ -30,7 +30,7 @@ Brief list of fixes and improvements against original Plasma:
 - Can directly map to a gradient (better than Plasma +
   Map_to_gradient),
 - Can do a gradient-remix map,
-- Better handling of grayscale images (and is 3× faster on them),
+- Better handling of grayscale images (and is 3 times faster on them),
 - Buttons to revert/reset settings.
 
 %description -l pl.UTF-8
