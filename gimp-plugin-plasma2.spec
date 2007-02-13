@@ -1,5 +1,5 @@
 Summary:	A heavily improved version of the old GIMP Plasma plug-in
-Summary(pl.UTF-8):   Znacznie usprawniona wersja wtyczki Plasma z GIMP-a
+Summary(pl.UTF-8):	Znacznie usprawniona wersja wtyczki Plasma z GIMP-a
 Name:		gimp-plugin-plasma2
 Version:	2.11
 Release:	1
